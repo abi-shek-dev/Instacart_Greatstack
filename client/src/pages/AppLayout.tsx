@@ -1,7 +1,16 @@
+import { Outlet } from "react-router-dom"
 
 const AppLayout = () => {
   return (
-    <div>AppLayout</div>
+    <>
+      <p>Banner-Hulk</p>
+      <p>Navbar</p>
+      <main className="min-h-screen">
+        <Outlet />
+      </main>
+      <p>Footer</p>
+      <p>CartSideBar</p>
+    </>
   )
 }
 
